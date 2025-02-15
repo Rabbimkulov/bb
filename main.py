@@ -4,7 +4,7 @@ import requests
 import instaloader
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("7587998097:AAHKReRf4VzfcEKAPEVJwD_bF83IE6a-3Ig")
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 loader = instaloader.Instaloader()
