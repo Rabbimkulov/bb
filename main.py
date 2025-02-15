@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 # Set these environment variables in Railway (or your hosting platform)
 APIFY_TOKEN = os.getenv("APIFY_TOKEN")   # Your Apify API token
-BOT_TOKEN   = os.getenv("BOT_TOKEN")       # Your Telegram Bot token
+BOT_TOKEN   = os.getenv("7587998097:AAHKReRf4VzfcEKAPEVJwD_bF83IE6a-3Ig")       # Your Telegram Bot token
 
 def download_tiktok_video(url: str) -> str:
     # Using Apify's TikTok Video Scraper Actor
